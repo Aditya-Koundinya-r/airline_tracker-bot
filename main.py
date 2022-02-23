@@ -5,10 +5,10 @@ import responses as r
 print("I am ALIVE...")
 
 def startCommand(update, context):
-    update.message.reply_text('Type something random to get us started')
+    update.message.reply_text('Type something to get started')
 
 def helpCommand(update, context):
-    update.message.reply_text('If you need some help ... just check the internet it is so easy these days')
+    update.message.reply_text('If you need some help ... CONTACT OWNER')
 
 def handleMessage(update, context):
 
